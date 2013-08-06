@@ -7,8 +7,8 @@ submit.addEventListener('click', function(){
 	var out = pass.value;
 	console.log('out');
 	if(out == 'abc')  {
-		window.location = "http://www.google.com";
-		//window.open('http://www.google.com');
+		window.location.href = "http://www.google.com";
+		window.open('http://www.google.com');
 	}  
 	else
 	{
