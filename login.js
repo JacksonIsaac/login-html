@@ -6,9 +6,10 @@ var submit = document.getElementById('submit');
 submit.addEventListener('click', function(){
 	var out = pass.value;
 	console.log('out');
-	if(out == 'abc')  {
+	if(out == 'abc') /*'abc' is deafult test password.*/
+	{
 		window.location.href = "http://www.google.com";
-		window.open('http://www.google.com');
+		//window.open('http://www.google.com');
 	}  
 	else
 	{
